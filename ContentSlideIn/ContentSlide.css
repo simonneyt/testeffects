@@ -1,0 +1,46 @@
+/*Slideshow*/
+#contentContainer{
+    width:400px;
+    height: 200px;
+    border: 5px black solid;
+    overflow: hidden;
+    margin: 0 auto;
+    background-color: cadetblue;
+    padding: 10px;
+}
+#tekst{
+    font-family: Verdana;
+    font-size: 15px;
+    margin: 0 auto;
+    width: 800px;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+    left: 0%;
+}
+.par{
+    float:left;
+    width:300px;
+    margin-right:40px;
+    margin-left: 40px;
+}
+#prev, #next{
+    position: absolute;
+    top:17%;
+    left: 60%;
+    color: white;
+    font-size: 18px;
+    border-radius: 0 3px 3px 0;
+    cursor: pointer;
+}
+#next{
+    border-radius: 3px 0 0 3px;
+}
+#prev{
+    display: none;
+    border-radius: 3px 0 0 3px;
+}
+#prev:hover, #next:hover{
+    background-color: black;
+    opacity: 0.5;
+}
